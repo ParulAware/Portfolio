@@ -13,7 +13,7 @@ function submitForm(event) {
   })
   .then(response => {
     if (response.ok) {
-      window.location.href = "thankyou.html"; // redirect to your custom thank-you page
+      window.location.href = "thankyou.html"; 
     } else {
       alert("Oops! Something went wrong. Please try again.");
     }
@@ -23,3 +23,7 @@ function submitForm(event) {
     alert("Error sending message. Please try later.");
   });
 }
+
+document.querySelector('.menu-toggle').addEventListener('click', function () {
+  document.querySelector('.nav-links').classList.toggle('show');
+});
