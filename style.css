@@ -149,3 +149,49 @@ html, body {
     }
   }
   
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem; 
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.social-links i {
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+.social-links span {
+  font-size: 1rem;
+  font-weight: 500;
+  color:#A07874;
+}
+
+.fa-github {
+  color: #171515; 
+}
+
+.fa-linkedin {
+  color: #0077B5; 
+}
+
+.fa-envelope{
+  color:black;
+}
+.social-links i,
+.social-links span {
+  display: inline-flex;
+  align-items: center;
+}
+
+.social-links a {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.social-links a:hover span {
+  text-decoration: underline;
+}
